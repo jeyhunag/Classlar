@@ -13,10 +13,9 @@ namespace Classlar
         public string Password { get; set; }
         public string FatherName { get; set; }
         public DateTime Dateofbirth { get; set; }
-        public string[] Address { get; set; }
+        public string Address { get; set; }
         public int Age { get; set; }
         public int[] Phone { get; set; }
-        public int price { get; set; }
 
     }
 }

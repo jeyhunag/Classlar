@@ -8,6 +8,7 @@ namespace Classlar
     {
         public string CategoryType { get; set; }
         public int CategoryHistory { get; set; }
+        public int ProductID { get; set; }
         public  Product Product { get; set; }
 
     }

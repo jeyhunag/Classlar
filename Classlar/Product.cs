@@ -15,7 +15,8 @@ namespace Classlar
         public int Weight { get; set; }
         public string Color { get; set; }
         public int Size { get; set; }
-
+        public int price { get; set; }
+        public int units { get; set; }
 
 
     }    

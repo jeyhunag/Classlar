@@ -6,8 +6,10 @@ namespace Classlar
 {
     public class Customer : Person
     {
+        public string Accaunts { get; set; }
         public string CustomerType { get; set; }
-        public string CustomerNumber { get; set; }
+        public int PaymenID { get; set; }
         public Payment Payment { get; set; }
+
     }
 }

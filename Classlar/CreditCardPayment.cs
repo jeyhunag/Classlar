@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Classlar
 {
-    class CreditCard: Payment
+    class CreditCardPayment: Payment
     {
         public int CreditCardNumber { get; set; }
         public decimal CreditCardType { get; set; }
-        public Sebet Sebet { get; set; }
+        public Basket Sebet { get; set; }
         public Order Order { get; set; }
     }
 }
